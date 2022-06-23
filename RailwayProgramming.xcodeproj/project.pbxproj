@@ -11,27 +11,8 @@
 		E5C9C4E42864B6740047AE95 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C9C4E32864B6740047AE95 /* ContentView.swift */; };
 		E5C9C4E62864B6770047AE95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5C9C4E52864B6770047AE95 /* Assets.xcassets */; };
 		E5C9C4E92864B6770047AE95 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5C9C4E82864B6770047AE95 /* Preview Assets.xcassets */; };
-		E5C9C4F32864B6770047AE95 /* RailwayProgrammingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C9C4F22864B6770047AE95 /* RailwayProgrammingTests.swift */; };
-		E5C9C4FD2864B6770047AE95 /* RailwayProgrammingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C9C4FC2864B6770047AE95 /* RailwayProgrammingUITests.swift */; };
-		E5C9C4FF2864B6770047AE95 /* RailwayProgrammingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C9C4FE2864B6770047AE95 /* RailwayProgrammingUITestsLaunchTests.swift */; };
+		E5C9C50D2864B6AF0047AE95 /* Overture in Frameworks */ = {isa = PBXBuildFile; productRef = E5C9C50C2864B6AF0047AE95 /* Overture */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		E5C9C4EF2864B6770047AE95 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E5C9C4D62864B6740047AE95 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E5C9C4DD2864B6740047AE95;
-			remoteInfo = RailwayProgramming;
-		};
-		E5C9C4F92864B6770047AE95 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E5C9C4D62864B6740047AE95 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E5C9C4DD2864B6740047AE95;
-			remoteInfo = RailwayProgramming;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		E5C9C4DE2864B6740047AE95 /* RailwayProgramming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RailwayProgramming.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,11 +20,8 @@
 		E5C9C4E32864B6740047AE95 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E5C9C4E52864B6770047AE95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5C9C4E82864B6770047AE95 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		E5C9C4EE2864B6770047AE95 /* RailwayProgrammingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RailwayProgrammingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5C9C4F22864B6770047AE95 /* RailwayProgrammingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RailwayProgrammingTests.swift; sourceTree = "<group>"; };
-		E5C9C4F82864B6770047AE95 /* RailwayProgrammingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RailwayProgrammingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5C9C4FC2864B6770047AE95 /* RailwayProgrammingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RailwayProgrammingUITests.swift; sourceTree = "<group>"; };
-		E5C9C4FE2864B6770047AE95 /* RailwayProgrammingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RailwayProgrammingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E5C9C50E2864B6CD0047AE95 /* FunctionComposition.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FunctionComposition.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		E5C9C5102864B7700047AE95 /* RailwayOP.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RailwayOP.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,20 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E5C9C4EB2864B6770047AE95 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E5C9C4F52864B6770047AE95 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				E5C9C50D2864B6AF0047AE95 /* Overture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,8 +40,6 @@
 			isa = PBXGroup;
 			children = (
 				E5C9C4E02864B6740047AE95 /* RailwayProgramming */,
-				E5C9C4F12864B6770047AE95 /* RailwayProgrammingTests */,
-				E5C9C4FB2864B6770047AE95 /* RailwayProgrammingUITests */,
 				E5C9C4DF2864B6740047AE95 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,8 +48,6 @@
 			isa = PBXGroup;
 			children = (
 				E5C9C4DE2864B6740047AE95 /* RailwayProgramming.app */,
-				E5C9C4EE2864B6770047AE95 /* RailwayProgrammingTests.xctest */,
-				E5C9C4F82864B6770047AE95 /* RailwayProgrammingUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,6 +55,8 @@
 		E5C9C4E02864B6740047AE95 /* RailwayProgramming */ = {
 			isa = PBXGroup;
 			children = (
+				E5C9C5102864B7700047AE95 /* RailwayOP.playground */,
+				E5C9C50E2864B6CD0047AE95 /* FunctionComposition.playground */,
 				E5C9C4E12864B6740047AE95 /* RailwayProgrammingApp.swift */,
 				E5C9C4E32864B6740047AE95 /* ContentView.swift */,
 				E5C9C4E52864B6770047AE95 /* Assets.xcassets */,
@@ -108,23 +71,6 @@
 				E5C9C4E82864B6770047AE95 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		E5C9C4F12864B6770047AE95 /* RailwayProgrammingTests */ = {
-			isa = PBXGroup;
-			children = (
-				E5C9C4F22864B6770047AE95 /* RailwayProgrammingTests.swift */,
-			);
-			path = RailwayProgrammingTests;
-			sourceTree = "<group>";
-		};
-		E5C9C4FB2864B6770047AE95 /* RailwayProgrammingUITests */ = {
-			isa = PBXGroup;
-			children = (
-				E5C9C4FC2864B6770047AE95 /* RailwayProgrammingUITests.swift */,
-				E5C9C4FE2864B6770047AE95 /* RailwayProgrammingUITestsLaunchTests.swift */,
-			);
-			path = RailwayProgrammingUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,45 +89,12 @@
 			dependencies = (
 			);
 			name = RailwayProgramming;
+			packageProductDependencies = (
+				E5C9C50C2864B6AF0047AE95 /* Overture */,
+			);
 			productName = RailwayProgramming;
 			productReference = E5C9C4DE2864B6740047AE95 /* RailwayProgramming.app */;
 			productType = "com.apple.product-type.application";
-		};
-		E5C9C4ED2864B6770047AE95 /* RailwayProgrammingTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E5C9C5052864B6770047AE95 /* Build configuration list for PBXNativeTarget "RailwayProgrammingTests" */;
-			buildPhases = (
-				E5C9C4EA2864B6770047AE95 /* Sources */,
-				E5C9C4EB2864B6770047AE95 /* Frameworks */,
-				E5C9C4EC2864B6770047AE95 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E5C9C4F02864B6770047AE95 /* PBXTargetDependency */,
-			);
-			name = RailwayProgrammingTests;
-			productName = RailwayProgrammingTests;
-			productReference = E5C9C4EE2864B6770047AE95 /* RailwayProgrammingTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		E5C9C4F72864B6770047AE95 /* RailwayProgrammingUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E5C9C5082864B6770047AE95 /* Build configuration list for PBXNativeTarget "RailwayProgrammingUITests" */;
-			buildPhases = (
-				E5C9C4F42864B6770047AE95 /* Sources */,
-				E5C9C4F52864B6770047AE95 /* Frameworks */,
-				E5C9C4F62864B6770047AE95 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E5C9C4FA2864B6770047AE95 /* PBXTargetDependency */,
-			);
-			name = RailwayProgrammingUITests;
-			productName = RailwayProgrammingUITests;
-			productReference = E5C9C4F82864B6770047AE95 /* RailwayProgrammingUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -196,14 +109,6 @@
 					E5C9C4DD2864B6740047AE95 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
-					E5C9C4ED2864B6770047AE95 = {
-						CreatedOnToolsVersion = 13.4.1;
-						TestTargetID = E5C9C4DD2864B6740047AE95;
-					};
-					E5C9C4F72864B6770047AE95 = {
-						CreatedOnToolsVersion = 13.4.1;
-						TestTargetID = E5C9C4DD2864B6740047AE95;
-					};
 				};
 			};
 			buildConfigurationList = E5C9C4D92864B6740047AE95 /* Build configuration list for PBXProject "RailwayProgramming" */;
@@ -215,13 +120,14 @@
 				Base,
 			);
 			mainGroup = E5C9C4D52864B6740047AE95;
+			packageReferences = (
+				E5C9C50B2864B6AF0047AE95 /* XCRemoteSwiftPackageReference "swift-overture" */,
+			);
 			productRefGroup = E5C9C4DF2864B6740047AE95 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				E5C9C4DD2864B6740047AE95 /* RailwayProgramming */,
-				E5C9C4ED2864B6770047AE95 /* RailwayProgrammingTests */,
-				E5C9C4F72864B6770047AE95 /* RailwayProgrammingUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,20 +139,6 @@
 			files = (
 				E5C9C4E92864B6770047AE95 /* Preview Assets.xcassets in Resources */,
 				E5C9C4E62864B6770047AE95 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E5C9C4EC2864B6770047AE95 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E5C9C4F62864B6770047AE95 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,37 +154,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E5C9C4EA2864B6770047AE95 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E5C9C4F32864B6770047AE95 /* RailwayProgrammingTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E5C9C4F42864B6770047AE95 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E5C9C4FF2864B6770047AE95 /* RailwayProgrammingUITestsLaunchTests.swift in Sources */,
-				E5C9C4FD2864B6770047AE95 /* RailwayProgrammingUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		E5C9C4F02864B6770047AE95 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E5C9C4DD2864B6740047AE95 /* RailwayProgramming */;
-			targetProxy = E5C9C4EF2864B6770047AE95 /* PBXContainerItemProxy */;
-		};
-		E5C9C4FA2864B6770047AE95 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E5C9C4DD2864B6740047AE95 /* RailwayProgramming */;
-			targetProxy = E5C9C4F92864B6770047AE95 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		E5C9C5002864B6770047AE95 /* Debug */ = {
@@ -465,78 +327,6 @@
 			};
 			name = Release;
 		};
-		E5C9C5062864B6770047AE95 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.razvanlitianu.RailwayProgrammingTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RailwayProgramming.app/RailwayProgramming";
-			};
-			name = Debug;
-		};
-		E5C9C5072864B6770047AE95 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.razvanlitianu.RailwayProgrammingTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RailwayProgramming.app/RailwayProgramming";
-			};
-			name = Release;
-		};
-		E5C9C5092864B6770047AE95 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.razvanlitianu.RailwayProgrammingUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = RailwayProgramming;
-			};
-			name = Debug;
-		};
-		E5C9C50A2864B6770047AE95 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.razvanlitianu.RailwayProgrammingUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = RailwayProgramming;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -558,25 +348,26 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E5C9C5052864B6770047AE95 /* Build configuration list for PBXNativeTarget "RailwayProgrammingTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E5C9C5062864B6770047AE95 /* Debug */,
-				E5C9C5072864B6770047AE95 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E5C9C5082864B6770047AE95 /* Build configuration list for PBXNativeTarget "RailwayProgrammingUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E5C9C5092864B6770047AE95 /* Debug */,
-				E5C9C50A2864B6770047AE95 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E5C9C50B2864B6AF0047AE95 /* XCRemoteSwiftPackageReference "swift-overture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-overture.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E5C9C50C2864B6AF0047AE95 /* Overture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E5C9C50B2864B6AF0047AE95 /* XCRemoteSwiftPackageReference "swift-overture" */;
+			productName = Overture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E5C9C4D62864B6740047AE95 /* Project object */;
 }
